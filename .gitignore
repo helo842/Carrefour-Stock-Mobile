@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Local toolchain (portable Node used during development)
+.tools/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Backend
+backend/dist/
+backend/coverage/
+backend/*.log
+
+# Expo / React Native
+mobile/.expo/
+mobile/.expo-export-check/
+mobile/dist/
+mobile/web-build/
+mobile/android/
+mobile/ios/
+mobile/*.jks
+mobile/*.keystore
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+firestore.rules.local
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
